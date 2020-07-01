@@ -10,7 +10,7 @@ import sys
 from os import mkdir
 
 sys.path.append('.')
-from config import cfg
+from config.defaults import cfg
 from data import make_data_loader
 from engine.trainer import do_train
 from modeling import build_fcn_model
